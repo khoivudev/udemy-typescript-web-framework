@@ -1,4 +1,5 @@
 import { User } from './models/User';
+import axios from 'axios';
 
 const user = new User({ name: 'myname', age: 20 });
 
@@ -13,3 +14,5 @@ user.on('save', () => {
 });
 
 user.trigger('change');
+
+axios.get('http://localhost:3000/users/1');
