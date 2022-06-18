@@ -1,41 +1,9 @@
 {
   "users": [
     {
-      "id": 2,
-      "name": "NEW NAME",
-      "age": 24
-    },
-    {
-      "name": "NEW NAME",
-      "age": 24,
-      "id": 3
-    },
-    {
-      "name": "NEW NAME",
-      "age": 24,
-      "id": 4
-    },
-    {
-      "data": {
-        "name": "NEW NAME",
-        "age": 24
-      },
-      "events": {
-        "events": {}
-      },
-      "sync": {
-        "rootUrl": "http://localhost:3000/users"
-      },
-      "id": 5
-    },
-    {
-      "function (propName) {\n    return this.data[propName];\n  }": "",
-      "id": 6
-    },
-    {
-      "name": "NEW NAME",
-      "age": 24,
-      "id": 7
+      "id": 1,
+      "name": "John",
+      "age": 10
     }
   ]
 }
